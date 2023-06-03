@@ -14,6 +14,9 @@
       <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
         <!-- External Javascript File start-->
       <script src="script.js" defer></script>
+      <!-- SmtpJS.com CDN -->
+      <script src="https://smtpjs.com/v3/smtp.js" defer></script>
+      <!-- jQuery CDN start -->
       <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
@@ -244,7 +247,11 @@
                         <i class="fas fa-envelope email-icon"></i>
                         <div class="info">
                            <div class="head">Email</div>
-                           <div class="sub-title">aladdinalizada@gmail.com</div>
+                           <div class="sub-title">
+                              <a href="mailto:aladdinalizada@gmail.com" style="color: white;">
+                                 aladdinalizada@gmail.com
+                              </a>
+                           </div>
                         </div>
                      </div>
                   </div>
@@ -283,23 +290,23 @@
                </div>
                <div class="column right">
                   <div class="text">Message me</div>
-                  <form action="#">
+                  <form action="mailto:alqaddinalizada@gmail.com" method="post" enctype="text/plain">
                      <div class="fields">
                         <div class="field name">
-                           <input type="text" placeholder="Name" required>
+                           <input type="text" placeholder="Name" required id="name">
                         </div>
                         <div class="field email">
-                           <input type="email" placeholder="Email" name="email" required>
+                           <input type="email" placeholder="Email" name="email" required id="email">
                         </div>
                      </div>
                      <div class="field">
-                        <input type="text" placeholder="Subject" required>
+                        <input type="text" placeholder="Subject" required id="subject">
                      </div>
                      <div class="field textarea">
-                        <textarea cols="30" rows="10" placeholder="Describe Project..." required></textarea>
+                        <textarea cols="30" rows="10" placeholder="Describe Project..." required id="msg"></textarea>
                      </div>
                      <div class="button">
-                        <button type="submit">Send Message <i class="fas fa-paper-plane"></i>
+                        <button  id="sendBtn">Send Message <i class="fas fa-paper-plane"></i>
                         </button>
                      </div>
                   </form>
@@ -310,7 +317,7 @@
       <!-- Contact section end -->
       <!-- footer section start -->
       <footer>
-         <span>Created By <a href="https://www.linkedin.com/in/aladdin-alizada-402022231/" target="_blank">Chetan Nada</a> | <span class="far fa-copyright"></span> 2023 All rights reserved </span>
+         <span>Created By <a href="https://www.linkedin.com/in/aladdin-alizada-402022231/" target="_blank">Aladdin Alizada</a> | <span class="far fa-copyright"></span> 2023 All rights reserved </span>
       </footer>
       <!-- footer section end -->
     
