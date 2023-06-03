@@ -1,293 +1,315 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Aladdin || Front End</title>
-    <link rel="stylesheet" href="style.css" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-      crossorigin="anonymous"
-    />
-    <!-- FontAwesome -->
-    <script
-      src="https://kit.fontawesome.com/2c36e9b7b1.js"
-      crossorigin="anonymous"
-    ></script>
-  </head>
-  <body>
-    <nav class="navbar navbar-expand-lg fixed-top navbarScroll">
-      <div class="container">
-        <a class="navbar-brand" href="#">Aladdin</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon">=</span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#home">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#about">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#services">Services</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#portfolio">Portfolio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-    <!-- main banner -->
-    <section class="bgimage" id="home">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
-            <h2 class="hero_title">Hi, it's me Aladdin</h2>
-            <p class="hero_desc">
-              I am a Front End Developer and I love to create websites
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- about section-->
-    <section id="about">
-      <div class="container mt-4 pt-4">
-          <h1 class="text-center">About Me</h1>
-          <div class="row mt-4">
-              <div class="col-lg-4">
-                  <img src="src/hero.jpeg" class= "imageAboutPage" alt="">
-              </div>
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!-- Title -->
+      <title>Aladdin Alizadas Portfolio</title>
+      <!-- CSS -->
+      <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+        <!-- External Javascript File start-->
+      <script src="script.js" defer></script>
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+   </head>
+   <body>
 
-              <div class="col-lg-8">
-                  <p> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                     when an unknown printer took a galley of type and scrambled it to make a type 
-                     specimen book. It has survived not only five centuries, but also the leap into 
-                     electronic typesetting, remaining essentially unchanged    
+      <!-- Scroll Button start -->
+      <div class="scroll-up-btn">
+         <i class="fas fa-angle-double-up"></i>
+      </div>
+      <!-- Scroll Button end -->
+
+      <!-- Navbar Start-->
+      <nav class="navbar">
+         <div class="max-width">
+            <div class="logo">
+               <a href="#">Portfo<span>lio.</span>
+               </a>
+            </div>
+            <ul class="menu">
+               <li>
+                  <a href="#home" class="menu-btn">Home</a>
+               </li>
+               <li>
+                  <a href="#about" class="menu-btn">About</a>
+               </li>  
+               <li>
+                  <a href="#projects" class="menu-btn">Projects</a>
+               </li>
+               <li>
+                  <a href="#contact" class="menu-btn">Contact</a>
+               </li>
+            </ul>
+            <div class="menu-btn">
+               <i class="fas fa-bars"></i>
+            </div>
+         </div>
+      </nav>
+      <!-- Navbar End -->
+
+      <!-- Home Section Start -->
+      <section class="home" id="home">
+         <div class="max-width">
+            <div class="home-content">
+               <div class="text-1">Hello 👋 I'm</div>
+               <div class="text-2">Aladdin Alizada</div>
+               <div class="text-3">And I'm a <span class="typing"></span>
+               </div>
+               <a href="https://www.linkedin.com/in/aladdin-alizada-402022231/" target="_blank">I'm looking to hire <i class="fad fa-angle-right"></i>
+               </a>
+            </div>
+         </div>
+      </section>
+      <!-- Home Section End -->
+
+      <!-- About section start -->
+      <section class="about" id="about">
+         <div class="max-width">
+            <h2 class="title fadein">About me</h2>
+            <div class="about-content">
+               <div class="column left">
+                  <img src="images/aladdinalizada.jpg" alt="Aladdin Alizada">
+                  <div>
+                     <div class="wrapper">
+                        <div class="button1">
+                           <div class="icon">
+                              <a href="https://www.linkedin.com/in/aladdin-alizada-402022231/" target="_blank">
+                              <i class="fab fa-linkedin"></i>
+                           </div>
+                           <span>LinkedIn </a>
+                           </span>
+                        </div>
+                        <!-- <div class="buttonmob"> -->
+                           <div class="button1 instagram">
+                              <div class="icon">
+                                 <a href="https://www.instagram.com/aladdin.alizada/" target="_blank">
+                                 <i class="fab fa-instagram"></i>
+                              </div>
+                              <span>Instagram </a>
+                              </span>
+                           </div>
+                        <!-- </div> -->
+                        <!-- <div class="buttonmob1"></div> -->
+                        <div class="button1">
+                           <div class="icon">
+                              <a href="https://github.com/aladdinalizada" target="_blank">
+                              <i class="fab fa-github"></i>
+                           </div>
+                           <span>Github </a>
+                           </span>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="column right">
+                  <div class="text">I'm a Aladdin and <span class="break">I'm a <span class="typing2"></span>
+                     </span>
+                  </div>
+                  <p>
+                     I'm a front-end developer with a passion for creating engaging and user-friendly web experiences. With expertise in HTML, CSS, and JavaScript, I craft visually stunning websites that leave a lasting impression. Let's collaborate and bring your ideas to life!
                   </p>
-                  <div class="row mt-3">
-                      <div class="col-md-6">
-                          <ul>
-                              <li>Name: Aladdin Alizada</li>
-                              <li>Age: 19</li>
-                              <li>Occupation: Front EndDeveloper</li>
-
-                          </ul>
-                      </div>
-                  </div>
-                  <div class="row mt-3">
-                      <p> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
-                          Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
-                      </p>
-                  </div>
-              </div>
-          </div>
-  </section>
-  <!-- services section-->
-  <section id="services">
-    <div class="container">
-        <h1 class="text-center">Services</h1>
-        <div class="row">
-            <div class="col-lg-4 mt-4">
-                <div class="card servicesText">
-                    <div class="card-body">
-                        <i class="fas servicesIcon fa-clock"></i>
-                        <h4 class="card-title mt-3">Website Development</h4>
-                        <p class="card-text mt-3">Some quick example text to build on the card title and make up the bulk of the card's content.
-                            Some quick example text to build on the card title and make up the bulk of the card's content.
-                        </p>
-                    </div>
-                </div>  
+                  </a>
+               </div>
             </div>
-            <div class="col-lg-4 mt-4">
-                <div class="card servicesText">
-                    <div class="card-body">
-                        <i class='fas servicesIcon fa-layer-group'></i>
-                        <h4 class="card-title mt-3">Website Design</h4>
-                        <p class="card-text mt-3">Some quick example text to build on the card title and make up the bulk of the card's content.
-                            Some quick example text to build on the card title and make up the bulk of the card's content.
-                        </p>
-                    </div>
-                </div>  
+         </div>
+      </section>
+      <!-- about section End -->
+
+      <!-- Skills section start -->
+      <section class="skills" id="skills">
+         <div class="max-width">
+            <h2 class="title fadein">My skills</h2>
+            <div class="skills-content">
+               <div class="column left">
+                  <div class="text">My creative skills & experiences</div>
+                  <p>I am a React Js Developer with a passion for learning and can work with estimation of future tasks and client feedback. I am highly-motivated, result oriented, self-driven, hard-working, fast learner and constantly seeking to improve my skills and am fully aware of the latest Front-end Development Tools. I have a firm knowledge of JavaScript and React Js, Parcel js, Node js, Redux, HTML5, CSS3, Git, SASS, Tailwind CSS, Bootstrap, REST API, JSON, Axios, Adobe Photoshop and possess a good knowledge of computer software packages (frameworks and tools) that are used in today’s technology.</p>
+                  <a href="#projects">Read more <i class="fas fa-angle-double-right"></i>
+                  </a>
+               </div>
+               <div class="column right">
+                  <div class="info">
+                     <a href="https://reactjs.org/" target="_blank">
+                     <img src="./images/skills/react.png" alt="react" width="90" height="80" />
+                     </a>
+                     <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
+                     <img src="./images/skills/javascript.png" alt="javascript" width="90" height="80" />
+                     </a>
+                     <a href="https://nodejs.org" target="_blank" rel="noreferrer">
+                     <img src="./images/skills/node-js.png" alt="nodejs" width="90" height="80" />
+                     </a>
+                     <a href="https://redux.js.org" target="_blank" rel="noreferrer">
+                     <img src="./images/skills/redux.png" alt="redux" width="90" height="80" />
+                     </a>
+                     <a href="https://jquery.com/" target="_blank" rel="noreferrer">
+                     <img src="./images/skills/jquery.png" alt="jquery" width="90" height="80" />
+                     </a>
+                     <a href="https://www.w3.org/html/" target="_blank">
+                     <img src="./images/skills/html5.png" alt="html5" width="90" height="80" />
+                     </a>
+                     <a href="https://www.w3schools.com/css/" target="_blank">
+                     <img src="./images/skills/css3.png" alt="css3" width="90" height="80" />
+                     </a>
+                     <a href="https://getbootstrap.com" target="_blank" rel="noreferrer">
+                     <img src="./images/skills/bootstrap.png" alt="bootstrap" width="90" height="80" />
+                     </a>
+                     <a href="https://sass-lang.com" target="_blank" rel="noreferrer">
+                     <img src="./images/skills/sass.png" alt="sass" width="90" height="80" />
+                     </a>
+                     <a href="https://tailwindcss.com/" target="_blank">
+                     <img src="./images/skills/tailwind-css.png" alt="react" width="90" height="80" />
+                     </a>
+                     <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer">
+                     <img src="./images/skills/mongodb.png" alt="MongoDB" width="90" height="80" />
+                     </a>
+                     <a href="https://git-scm.com/" target="_blank" rel="noreferrer">
+                     <img src="./images/skills/git.png" alt="git" width="90" height="80" />
+                     </a>
+                  </div>
+               </div>
             </div>
+         </div>
+      </section>
+      <!-- Skills section end -->
 
-            <div class="col-lg-4 mt-4">
-                <div class="card servicesText">
-                    <div class="card-body">
-                        <i class='far servicesIcon fa-check-circle'></i>
-                        <h4 class="card-title mt-3">Website Deployment</h4>
-                        <p class="card-text mt-3">Some quick example text to build on the card title and make up the bulk of the card's content.
-                            Some quick example text to build on the card title and make up the bulk of the card's content.
-                        </p>
-                    </div>
-                </div>  
+      <!-- Project section start -->
+      <section class="projects" id="projects">
+         <div class="max-width">
+            <h2 class="title fadein">My Projects</h2>
+            <div class="carousel owl-carousel">
+               <div class="card">
+                  <a href="simple-clock-1.netlify.app/" target="_blank">
+                     <div class="box">
+                        <img src="./images/projects/Clock.png" alt="Clock">
+                        <p>Real-time Clock</p>
+                        <p>HTML, CSS, JavaScript</p>
+                     </div>
+                  </a>
+               </div>
+               <div class="card">
+                  <a href="snobella-main.netlify.app/" target="_blank">
+                     <div class="box">
+                        <img src="./images/projects/Snobella.png" alt="Snobella">
+                        <p>Snobella E-commerce website</p>
+                        <p>HTMl, SCSS</p>
+                     </div>
+                  </a>
+               </div>
+               <div class="card">
+                  <a href="https://chetannada.github.io/FirstReactApp" target="_blank">
+                     <div class="box">
+                        <img src="./images/projects/calculator.png" alt="calculator">
+                        <p>Calculator</p>
+                        <p>React.js</p>
+                     </div>
+                  </a>
+               </div>
             </div>
-        </div>
+         </div>
+      </section>
+      <!-- Project section end -->
 
-        <div class="row">
-            <div class="col-lg-4 mt-4">
-                <div class="card servicesText">
-                    <div class="card-body">
-                        <i class='fas servicesIcon fa-search'></i>
-                        <h4 class="card-title mt-3">SEO</h4>
-                        <p class="card-text mt-3">Some quick example text to build on the card title and make up the bulk of the card's content.
-                            Some quick example text to build on the card title and make up the bulk of the card's content.
-                        </p>
-                    </div>
-                </div>  
-            </div>
-        </div>
-    </div>
-</section>
-<!-- portfolio section-->
-<section id="portfolio">
-  <div class="container mt-3">
-      <h1 class="text-center">Portfolio</h1>
-      <div class="row">
-          <div class="col-lg-4 mt-4">
-              <div class="card">
-                  <img class="card-img-top" src="images/portfolioImage1.jpg" alt="Card image" style="width:100%">
-                  <div class="card-body">
-                      <h4 class="card-title">YouTube Clone</h4>
-                      <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                      <div class="text-center">
-                          <a href="#" class="btn btn-success">Link</a>
-                      </div>
+      <!-- Contact section start -->
+      <section class="contact" id="contact">
+         <div class="max-width">
+            <h2 class="title fadein">Contact me</h2>
+            <div class="contact-content">
+               <div class="column left">
+                  <div class="text">Reach Out to me!</div>
+                  <p>Discuss a Project or just want to say Hi? My inbox is open for all.</p>
+                  <div class="icons">
+                     <div class="row">
+                        <i class="fas fa-user"></i>
+                        <div class="info">
+                           <div class="head">Name</div>
+                           <div class="sub-title">Aladdin Alizada</div>
+                        </div>
+                     </div>
+                     <div class="row">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div class="info">
+                           <div class="head">Address</div>
+                           <div class="sub-title">Baku, Azerbaijan</div>
+                        </div>
+                     </div>
+                     <div class="row">
+                        <i class="fas fa-envelope email-icon"></i>
+                        <div class="info">
+                           <div class="head">Email</div>
+                           <div class="sub-title">aladdinalizada@gmail.com</div>
+                        </div>
+                     </div>
                   </div>
-              </div>
-          </div>
-
-          <div class="col-lg-4 mt-4">
-              <div class="card portfolioContent">
-                  <img class="card-img-top" src="images/portfolioImage4.jpg" alt="Card image" style="width:100%">
-                  <div class="card-body">
-                      <h4 class="card-title">Quiz App</h4>
-                      <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                      <div class="text-center">
-                          <a href="#" class="btn btn-success">Link</a>
-                      </div>
+                  <div class="text1">Stay Connected</div>
+                  <div>
+                  <div class="wrapper">
+                        <div class="button1">
+                           <div class="icon">
+                              <a href="https://www.linkedin.com/in/aladdin-alizada-402022231/" target="_blank">
+                              <i class="fab fa-linkedin"></i>
+                           </div>
+                           <span>LinkedIn </a>
+                           </span>
+                        </div>
+                        <!-- <div class="buttonmob"> -->
+                           <div class="button1 instagram">
+                              <div class="icon">
+                                 <a href="https://www.instagram.com/aladdin.alizada/" target="_blank">
+                                 <i class="fab fa-instagram"></i>
+                              </div>
+                              <span>Instagram </a>
+                              </span>
+                           </div>
+                        <!-- </div> -->
+                        <!-- <div class="buttonmob1"></div> -->
+                        <div class="button1">
+                           <div class="icon">
+                              <a href="https://github.com/aladdinalizada" target="_blank">
+                              <i class="fab fa-github"></i>
+                           </div>
+                           <span>Github </a>
+                           </span>
+                        </div>
+                     </div>
                   </div>
-              </div>
-          </div>
-
-          <div class="col-lg-4 mt-4">
-              <div class="card portfolioContent">
-                  <img class="card-img-top" src="images/portfolioImage3.jpg" alt="Card image" style="width:100%">
-                  <div class="card-body">
-                      <h4 class="card-title">Product Landing Page</h4>
-                      <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                      <div class="text-center">
-                          <a href="#" class="btn btn-success">Link</a>
-                      </div>
-                  </div>
-              </div>
-          </div>
-      </div>
-      <br>
-      <div class="row">
-          <div class="col-lg-4 mt-4">
-              <div class="card portfolioContent">
-                  <img class="card-img-top" src="images/portfolioImage4.jpg" alt="Card image" style="width:100%">
-                  <div class="card-body">
-                      <h4 class="card-title">Messaging Service</h4>
-                      <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                      <div class="text-center">
-                          <a href="#" class="btn btn-success">Link</a>
-                      </div>
-                  </div>
-              </div>
-          </div>
-
-          <div class="col-lg-4 mt-4">
-              <div class="card portfolioContent">
-                  <img class="card-img-top" src="images/portfolioImage1.jpg" alt="Card image" style="width:100%">
-                  <div class="card-body">
-                      <h4 class="card-title">Twitter Clone</h4>
-                      <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                      <div class="text-center">
-                          <a href="#" class="btn btn-success">Link</a>
-                      </div>
-                  </div>
-              </div>
-          </div>
-          <div class="col-lg-4 mt-4">
-              <div class="card portfolioContent">
-                  <img class="card-img-top" src="images/portfolioImage4.jpg" alt="Card image" style="width:100%">
-                  <div class="card-body">
-                      <h4 class="card-title">Blog App</h4>
-                      <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                      <div class="text-center">
-                          <a href="#" class="btn btn-success">Link</a>
-                      </div>
-                  </div>
-              </div>
-          </div>
-          <!-- contact section-->
-    <section id="contact">
-      <div class="container mt-3 contactContent">
-          <h1 class="text-center">Contact Me</h1>
-
-          <div class="row mt-4">
-              <div class="col-lg-6">
-                  <!-- to edit google map goto https://www.embed-map.com type your location, generate html code and copy the html  -->
-                  <div style="max-width:100%;overflow:hidden;color:red;width:500px;height:500px;">
-                      <div id="embedmap-canvas" style="height:100%; width:100%;max-width:100%;">
-                          <iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=new+york&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8">
-                          </iframe>
-                      </div>
-                      <a class="googlemaps-html" href="https://www.embed-map.com" id="get-data-forembedmap">https://www.embed-map.com</a>
-                      <style>#embedmap-canvas img{max-width:none!important;background:none!important;font-size: inherit;font-weight:inherit;}
-                      </style>
-                  </div>
-              </div>
-
-              <div class="col-lg-6">
-                  <!-- form fields -->
-                  <form>
-                      <input type="text" class="form-control form-control-lg" placeholder="Name">
-                      <input type="email" class="form-control mt-3" placeholder="Email">
-                      <input type="text" class="form-control mt-3" placeholder="Subject">
-                      <div class="mb-3 mt-3">
-                          <textarea class="form-control" rows="5" id="comment" name="text" placeholder="Project Details"></textarea>
-                      </div>
+               </div>
+               <div class="column right">
+                  <div class="text">Message me</div>
+                  <form action="#">
+                     <div class="fields">
+                        <div class="field name">
+                           <input type="text" placeholder="Name" required>
+                        </div>
+                        <div class="field email">
+                           <input type="email" placeholder="Email" name="email" required>
+                        </div>
+                     </div>
+                     <div class="field">
+                        <input type="text" placeholder="Subject" required>
+                     </div>
+                     <div class="field textarea">
+                        <textarea cols="30" rows="10" placeholder="Describe Project..." required></textarea>
+                     </div>
+                     <div class="button">
+                        <button type="submit">Send Message <i class="fas fa-paper-plane"></i>
+                        </button>
+                     </div>
                   </form>
-                  <button type="button" class="btn btn-success mt-3">Contact Me</button>
-                  
-              </div>
-
-          </div>
-      </div>
-  </section>
-  <!-- footer section-->
-  <footer id="footer">
-    <div class="container-fluid">
-        <!-- social media icons -->
-        <div class="social-icons mt-4">
-            <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
-            <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
-            <a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
-            <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
-            <a href="https://www.twitch.tv/" target="_blank"><i class="fab fa-twitch"></i></a>
-        </div>
-    </div>
-</footer>
-      <script src="script/script.js"></script>
-  </body>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- Contact section end -->
+      <!-- footer section start -->
+      <footer>
+         <span>Created By <a href="https://www.linkedin.com/in/aladdin-alizada-402022231/" target="_blank">Chetan Nada</a> | <span class="far fa-copyright"></span> 2023 All rights reserved </span>
+      </footer>
+      <!-- footer section end -->
+    
+   </body>
 </html>
