@@ -1,7 +1,5 @@
 # Aladdin Alizada's personal website
-
-[](./images/UI/home.png)
-
+<img title="cover-photo" alt="" src="./images/UI/home.png" >
 This is the source code of my personal website. It is built with HTML, CSS, JavaScript and hosted on [Github](https://github.com/).
 
 ## Table of Contents
