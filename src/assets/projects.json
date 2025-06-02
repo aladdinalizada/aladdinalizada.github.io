@@ -73,5 +73,23 @@
         "url": "https://www.bendis.shop/en"
       }
     ]
+  },
+  {
+    "name": "Case Cobra Dev",
+    "description": "Modern E-Commerce Store for Custom Phone Cases Built with Next.js and Framer Motion, this sleek and interactive platform allows customers to personalize their phone cases with logos, designs, and more. Featuring smooth animations and a responsive design, the site provides an engaging shopping experience where users can easily customize and order unique phone accessories tailored to their style.",
+    "pic": "/CobraCase.png",
+    "tech": ["Next.js", "Framer Motion", "Kinde", "Tailwind CSS"],
+    "links": [
+      {
+        "label": "Website",
+        "icon": "link",
+        "url": "https://case-cobra-dev.vercel.app/"
+      },
+      {
+        "label": "case Cobra Repo",
+        "icon": "github",
+        "url": "https://github.com/aladdinalizada/case-cobra-dev/tree/master"
+      }
+    ]
   }
 ]
