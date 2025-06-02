@@ -1,0 +1,58 @@
+[
+  {
+    "workplace": "Freelancer",
+    "position": "Full Stack Developer",
+    "duration": ["Mar 2025 - Present"],
+    "tech": ["React", "Next.js",  "Express.js", "TypeScript"],
+    "description": [
+      "Built and maintained full-stack web applications using React, Next.js, and GraphQL, focusing on performance and scalability",
+      "Collaborated with clients to gather requirements and deliver tailored, high-quality solutions",
+      "Ensured code quality through testing, refactoring, and participation in code reviews",
+      "Integrated modern TypeScript practices to improve code maintainability and reduce runtime errors"
+    ],
+    "url": "https://www.linkedin.com/in/aladdinalizada/"
+  },
+  {
+    "workplace": "Rever Academy",
+    "position": "Frontend Instructor",
+    "duration": ["Feb 2024 - Dec 2024"],
+    "tech": ["React", "HTML", "CSS", "JavaScript", "React"],
+    "description": [
+      "Taught front-end development fundamentals and advanced concepts to students, covering HTML, CSS, JavaScript, and React",
+      "Designed and delivered hands-on lessons and real-world projects to enhance student engagement and understanding",
+      "Provided one-on-one mentoring and feedback to support student progress and career readiness",
+      "Assisted in developing and updating course materials to reflect current industry best practices",
+      "Fostered a collaborative and supportive learning environment, helping students build strong foundations in front-end development"
+    ],
+    "url": "https://www.linkedin.com/company/reveracademy/posts/?feedView=all"
+  },
+  {
+    "workplace": "Yelload",
+    "position": "Intern Frontend Developer",
+    "duration": ["Jan 2021 - Feb 2024"],
+    "tech": ["Next.js", "HTML", "CSS", "JavaScript", "React", "Git", "Redux"],
+    "description": [
+      "Assisted in developing and maintaining user-facing features using React, Next.js, HTML, CSS, and JavaScript",
+      "Collaborated with senior developers to implement responsive and accessible UI components",
+      "Gained hands-on experience with modern front-end workflows, including component-based architecture and version control with Git",
+      "Contributed to debugging and performance optimization efforts across multiple projects",
+      "Learned and applied best practices in frontend development through real-world tasks and team collaboration"
+    ],
+    "url": "https://yelload.com"
+  },
+  {
+    "workplace": "MOTO4",
+    "position": "Intern Frontend Developer",
+    "duration": ["Nov 2023 - Jan 2024"],
+    "tech": ["TypeScript", "React", "CSS", "JavaScript", "Git"],
+    "description": [
+      "Supported the development of web interfaces using React, TypeScript, JavaScript, and CSS",
+      "Collaborated with the development team to build reusable and maintainable UI components",
+      "Applied Git for version control and participated in collaborative coding workflows",
+      "Gained practical experience in writing clean, type-safe code and working within a modern frontend environment",
+      "Assisted in bug fixing and minor feature implementations to improve product quality and usability"
+    ],
+    "url": "https://www.linkedin.com/company/motofour2023/posts/?feedView=all"
+  }
+ 
+]

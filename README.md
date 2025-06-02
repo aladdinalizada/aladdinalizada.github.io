@@ -1,23 +1,68 @@
-# Aladdin Alizada's personal website
-<img title="cover-photo" alt="" src="./images/UI/home.png" >
-This is the source code of my personal website. It is built with HTML, CSS, JavaScript and hosted on [Github](https://github.com/).
+## 🚀 Portfolio V3.0
 
-## Table of Contents
+![visitors](https://img.shields.io/endpoint?url=https://vu-mi.com/api/v1/views?id=jcserv/portfolio)
 
-- [About](#about)
-- [Skills](#skills)
-- [Projects](#projects)
-- [Contact](#contact)
+> [!TIP]
+> Want to use this portfolio? Click the fork button above!
+>
+> Want to build from (almost) scratch, with all the boring stuff configured? Check out this [starter template](https://github.com/jcserv/react-vite-shadcn-template).
 
-# About
+This portfolio has been rewritten in TypeScript, revamped with responsiveness & accessibility in mind, and to try out some new libraries.
 
-I'm a front-end developer with a passion for creating engaging and user-friendly web experiences. With expertise in HTML, CSS, and JavaScript, I craft visually stunning websites that leave a lasting impression. Let's collaborate and bring your ideas to life!
+Changes from V2.0:
 
-# Skills
+- 🏙️ TypeScript
+- 🔍 Search bar, powered by Fuse.js
+- ⌨️ Keyboard navigation
+- 🗞️ Added a certificates section under about
+- 😎 Updated with the latest trendy UI libraries (shadcn, tailwindcss, vite)
+- 🐛 Fixed some jittering bugs, like in the Experience section
 
-I am a React Js Developer with a passion for learning and can work with estimation of future tasks and client feedback. I am highly-motivated, result oriented, self-driven, hard-working, fast learner and constantly seeking to improve my skills and am fully aware of the latest Front-end Development Tools. I have a firm knowledge of JavaScript and React Js, Parcel js, Node js, Redux, HTML5, CSS3, Git, SASS, Tailwind CSS, Bootstrap, REST API, JSON, Axios, Adobe Photoshop and possess a good knowledge of computer software packages (frameworks and tools) that are used in today’s technology.
+See previous versions of my portfolio:
 
-# Projects
+- V2.0: [github](https://github.com/jcserv/portfoliov2), [deployment](https://portfoliov2-taupe-one.vercel.app/) (Chakra-UI, frontend PWA)
+- V1.0: [github](https://github.com/jcserv/portfoliov1) (react-bootstrap, client/server)
 
-- [Clock](https://simple-clock-1.netlify.app/)
-- [Snobella](https://snobella-main.netlify.app/)
+## 💼 Prerequisites
+
+- [Node.js](https://nodejs.org/en/download/)
+- [pnpm](https://pnpm.io/installation)
+
+## ⚙️ Installing
+
+1. Clone the latest code on the master branch
+2. Install dependencies
+   - `pnpm i`
+3. Run the web server!
+   - `pnpm dev`
+
+## 🎈 Usage
+
+- Navigate to http://localhost:5173 on your browser
+
+## 💫 Deployment
+
+Import your project into Vercel. It will now have automated deployments on push.
+
+## ⛏️ Built With
+
+- [React](https://reactjs.org/)
+- [shadcn](https://ui.shadcn.com/)
+- [TailwindCSS](https://tailwindcss.com/)
+- [Vite](https://vite.dev/)
+
+## 📗 Acknowledgements
+
+The design of the site was heavily influenced by a lot of awesome portfolios out there, such as:
+
+- <a href="https://brittanychiang.com/">Brittany Chiang</a>
+- <a href="http://findmatthew.com/">Matthew Williams</a>
+- <a href="https://chippd.github.io/">Chris Dermody</a>
+- Jacek Jeznach (link is dead)
+
+## Problems for Future Jarrod
+
+(still on the fence about re-adding...)
+
+- More projects section?
+- Contact section?

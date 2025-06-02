@@ -1,0 +1,77 @@
+[
+  {
+    "name": "Healet Jewelery Store Template",
+    "description": "Healet is an elegant platform for showcasing and selling premium silver products. It leverages a clean HTML, CSS, and JavaScript template to deliver a smooth and stylish user experience. The site is designed to highlight Healet’s finest silver collections while providing customers with a fast, mobile-friendly shopping experience.",
+    "pic": "/Healet.png",
+    "tech": ["HTML5", "CSS3", "Bootstrap5", "Jquery", "JavaScript"],
+    "links": [
+      {
+        "label": "Website",
+        "icon": "link",
+        "url": "https://healet-eta.vercel.app/index.html"
+      },
+      {
+        "label": "Healet Repo",
+        "icon": "github",
+        "url": "https://github.com/aladdinalizada/healet"
+      }
+    ]
+  },
+  {
+    "name": "Digitf Furniture Store Template",
+    "description": "Digitf is a modern and responsive furniture eCommerce template built with HTML, CSS, and JavaScript. Designed for elegance and usability, Digitf allows furniture stores to showcase their products in a stylish, user-friendly layout. With clean code and a sleek design, it offers smooth navigation, mobile optimization, and dynamic product display — making it easy for customers to browse and shop for their favorite furniture pieces.",
+    "pic": "/Digitf.png",
+    "tech": ["HTML5", "CSS3", "Bootstrap5", "Jquery", "JavaScript"],
+    "links": [
+      {
+        "label": "Website",
+        "icon": "link",
+        "url": "https://digitf-gilt.vercel.app/index.html"
+      },
+      {
+        "label": "Healet Repo",
+        "icon": "github",
+        "url": "https://github.com/aladdinalizada/digitf"
+      }
+    ]
+  },
+  {
+    "name": "Bytech.az",
+    "description": "bytech.az is a modern IT solutions platform that delivers cutting-edge technical services and digital tools for businesses. Built with React and CSS, the site offers a fast, responsive, and interactive user experience. From software development to system integration and automation, bytech.az helps clients streamline their operations with customized tech solutions designed for efficiency and scalability.",
+    "pic": "/bytechaz.png",
+    "tech": ["React", "JavaScript", "CSS3"],
+    "links": [
+      {
+        "label": "Website",
+        "icon": "link",
+        "url": "https://www.bytech.az/"
+      }
+    ]
+  },
+  {
+    "name": "Sefatapp.com",
+    "description": "ŞəfaTapp is a health-tech startup based in Azerbaijan, aiming to make medical consultations more accessible and convenient. Built with Next.js, the platform offers a fast, scalable, and SEO-friendly experience for users seeking expert medical advice online. ŞəfaTapp connects patients with certified healthcare professionals, helping to simplify the process of getting reliable medical support from anywhere in the country.",
+    "pic": "/Şefatapp.png",
+    "tech": ["Next.js", "JavaScript", "CSS3"],
+    "links": [
+      {
+        "label": "Website",
+        "icon": "link",
+        "url": "https://sefatapp.com/"
+      }
+    ]
+  },
+  {
+    "name": "Bendis.shop",
+    "description": "Bendis is a modern eCommerce platform designed to simplify online shopping. Whether you're browsing for fashion, electronics, or home goods, Bendis offers a seamless and user-friendly experience. With a clean interface, responsive design, and secure checkout system, Bendis makes it easy for customers to discover and purchase their favorite products online.",
+    "pic": "/Bendis.png",
+    "tech": ["Next.js", "React", "JavaScript", "Tailwind CSS"],
+    "links": [
+      {
+        "label": "Website",
+        "icon": "link",
+        "url": "https://www.bendis.shop/en"
+      }
+    ]
+  }
+]
