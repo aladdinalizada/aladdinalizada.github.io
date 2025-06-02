@@ -36,7 +36,7 @@ export const Header: React.FC = () => {
       <div className="flex-1 mt-2 ml-2">
         <img
           src="/logo.png"
-          alt=""
+          alt="Logo"
           width="60"
           height="60"
           className="cursor-pointer"
@@ -53,15 +53,17 @@ export const Header: React.FC = () => {
       <div className="flex flex-1 justify-center mt-2">
         <CommandBar />
       </div>
+
       <div className="flex flex-1 justify-end mt-2 mr-2">
-        {/* Links navigation shows up when viewport >= md */}
+        {/* Navigation for medium and larger screens */}
         <div className="flex flex-row items-center space-x-4 max-md:hidden mr-2">
           {links.map((btn) => (
+            // @ts-ignore
             <ScrollLink
               key={btn.label}
               to={btn.label.toLowerCase()}
-              spy
-              smooth
+              spy={true}
+              smooth={true}
               offset={-70}
               duration={500}
               className="hover:underline cursor-pointer"
@@ -77,6 +79,8 @@ export const Header: React.FC = () => {
           ))}
           <ModeToggle />
         </div>
+
+        {/* Dropdown for smaller screens */}
         <DropdownMenu>
           <DropdownMenuTrigger asChild className="md:hidden">
             <Button
